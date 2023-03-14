@@ -1,5 +1,7 @@
 #include "Pieza.h"
 
+int Pieza::numeroPiezasCreadas = 0;
+
 Pieza::Pieza()
 {
 	nombre = "Sin nombre";
@@ -9,7 +11,7 @@ Pieza::Pieza()
 	color = "#FFFFFF";
 	velocidad = 0.01f;
 	enMovimiento = true;
-
+	numeroPiezasCreadas++;
 }
 
 Pieza::Pieza(string _nombre, string _color)
@@ -21,7 +23,7 @@ Pieza::Pieza(string _nombre, string _color)
 	color = _color;
 	velocidad = 0.01f;
 	enMovimiento = true;
-
+	numeroPiezasCreadas++;
 }
 
 Pieza::Pieza(float _velocidad):velocidad(_velocidad)
@@ -33,13 +35,7 @@ Pieza::Pieza(float _velocidad):velocidad(_velocidad)
 	color = "#FFFFFF";
 	//velocidad = _velocidad;
 	enMovimiento = true;
-
-}
-
-
-void Pieza::rotar(int _angulo)
-{
-	cout << "Esta funcion rota una figura" << endl;
+	numeroPiezasCreadas++;
 }
 
 void Pieza::acelerar(float _velocidad)

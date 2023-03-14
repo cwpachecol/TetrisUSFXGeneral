@@ -39,6 +39,9 @@
     <ClCompile Include="PiezaMutante.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
+    <ClCompile Include="PiezaTetramino.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Escenario.h">
@@ -60,6 +63,9 @@
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
     <ClInclude Include="PiezaMutante.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="PiezaTetramino.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
   </ItemGroup>

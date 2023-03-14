@@ -131,6 +131,7 @@
     <ClCompile Include="Escenario.cpp" />
     <ClCompile Include="GameManager.cpp" />
     <ClCompile Include="PiezaMutante.cpp" />
+    <ClCompile Include="PiezaTetramino.cpp" />
     <ClCompile Include="principal.cpp" />
     <ClCompile Include="Niveles.cpp" />
     <ClCompile Include="Pieza.cpp" />
@@ -143,6 +144,7 @@
     <ClInclude Include="Niveles.h" />
     <ClInclude Include="Pieza.h" />
     <ClInclude Include="PiezaMutante.h" />
+    <ClInclude Include="PiezaTetramino.h" />
     <ClInclude Include="Previsualizador.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

@@ -24,6 +24,9 @@ private:
 	int numeroTiles;
 	vector<vector<bool>> apariencia;
 public:
+
+	static int numeroPiezasCreadas;
+
 	Pieza();
 	Pieza(string _nombre, string _color);
 	Pieza(float);
@@ -31,13 +34,15 @@ public:
 	string getNombre() { return nombre; }
 	void setNombre(string _nombre) { nombre = _nombre; }
 	
+	int getTiles() { return numeroTiles; }
+	void setTiles(int _numeroTiles) { numeroTiles = _numeroTiles; }
+
 	string getColor() { return color; }
 
-	void rotar(int _angulo);
+	virtual void rotar(int _angulo) = 0;
+	
 	void acelerar(float _velocidad);
 	void moverHorizontalmente(int _direccion);
-
-
 
 protected:
 

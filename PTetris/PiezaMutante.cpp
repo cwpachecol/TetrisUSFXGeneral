@@ -38,3 +38,8 @@ void PiezaMutante::cambiarForma(int _nuevaForma)
 {
 	cout << "Esta funcion permite cambiar la forma de una pieza." << endl;
 }
+
+void PiezaMutante::rotar(int _angulo)
+{
+	cout << " se ha rotado la pieza mutante " << _angulo << " grados" << endl;
+}

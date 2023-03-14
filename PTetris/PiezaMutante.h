@@ -21,5 +21,8 @@ public:
     void copiarPieza(int _numeroCopias);
     void detenerPieza(int _tiempo);
     void cambiarForma(int _nuevaforma);
+
+    void rotar(int);
+        
 };
 
